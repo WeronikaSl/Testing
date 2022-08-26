@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\STDQueueZad1.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="QueueTest.TestNewQueueIsEmpty" Duration="1" />
+    <TestDuration Test="SizeTest.IfSizeMethodWorks" Duration="1" />
+    <TestDuration Test="SizeTest.IfPopWorks" Duration="1" />
+    <TestDuration Test="FrontTest.IfFrontWorks" Duration="1" />
+    <TestDuration Test="PopTest.IfPopWorks" Duration="1" />
+    <TestDuration Test="SwapTest.IfSwapTest" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

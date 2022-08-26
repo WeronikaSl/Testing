@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\BankAccount-Test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="BankAccountTest.TestEmptyAccount" Duration="1" />
+    <TestDuration Test="BankAccountTest.TestDeposit" Duration="1" />
+    <TestDuration Test="BankAccountTest.TestWithdraw" Duration="1" />
+    <TestDuration Test="DebitBankAccountTest.TestGetDebit" Duration="1" />
+    <TestDuration Test="DebitBankAccountTest.TestSetDebit" Duration="1" />
+    <TestDuration Test="DebitBankAccountTest.TestWithdraw" Duration="1" />
+    <TestDuration Test="DebitBankAccountTest.TestPayDebit" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
