@@ -35,6 +35,9 @@ TEST(DebitBankAccountTest, TestSetDebit)
 	DebitBankAccount db(100);
 	db.setDebitLimit(100);
 	EXPECT_EQ(100, db.getDebitLimit());
+	EXPECT_TRUE(db.setDebitLimit(150));
+	EXPECT_FALSE(db.setDebitLimit(-150));
+
 }
 
 TEST(DebitBankAccountTest, TestWithdraw)

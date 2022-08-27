@@ -17,9 +17,18 @@ bool DebitBankAccount::withdraw(int toWithdraw)
 	}
 }
 
-void DebitBankAccount::setDebitLimit(int debitLimit)
+bool DebitBankAccount::setDebitLimit(int debitLimit)
 {
-	_debitLimit = debitLimit;
+	if (debitLimit < 0)
+	{
+		return false;
+	}
+	else
+	{
+		_debitLimit = debitLimit;
+		return true;
+	}
+
 }
 
 int DebitBankAccount::getDebitLimit() const
