@@ -2,20 +2,20 @@
 
 double Converter::feetToMeters(double feet)
 {
-    return feet* 0.3048;
+    return feet/ 3.281;
 }
 
 double Converter::metersToFeet(double meters)
 {
-    return meters* 3.28084;
+    return meters* 3.281;
 }
 
 double Converter::celsiusToFarenheit(double Celsius)
 {
-    return Celsius* 33.8;
+    return (Celsius * 9 / 5) + 32;
 }
 
 double Converter::farenheitToCelsius(double Farenheit)
 {
-    return (Farenheit-32.0)*5556;
+    return (Farenheit - 32) * 5 / 9;
 }

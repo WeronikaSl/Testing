@@ -18,7 +18,7 @@ TEST(TestConverter, TestMetersToFeet)
 TEST(TestConverter, TestCelsiusToFarenheit)
 {
 	Converter c;
-	EXPECT_DOUBLE_EQ(212, c.celsiusToFarenheit(100));
+	EXPECT_DOUBLE_EQ(32, c.celsiusToFarenheit(0));
 }
 
 

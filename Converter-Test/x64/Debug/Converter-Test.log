@@ -1,1 +1,3 @@
-﻿  Converter-Test.vcxproj -> C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Converter-Test.exe
+﻿  test.cpp
+  LINK : C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Converter-Test.exe not found or not built by the last incremental link; performing full link
+  Converter-Test.vcxproj -> C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Converter-Test.exe

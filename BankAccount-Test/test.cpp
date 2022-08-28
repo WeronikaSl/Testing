@@ -5,7 +5,7 @@
 TEST(BankAccountTest, TestEmptyAccount) 
 {
 	BankAccount account;
-	EXPECT_EQ(0, account.getAvailableFunds());
+	EXPECT_EQ(0, account.getAvailableFunds()) << "nie dziala buuu";
 }
 
 TEST(BankAccountTest, TestDeposit)
