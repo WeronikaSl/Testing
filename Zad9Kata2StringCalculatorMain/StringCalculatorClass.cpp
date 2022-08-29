@@ -1,16 +1,31 @@
 #include "StringCalculatorClass.hpp"
 #include <stdexcept>
 
+char StringCalculator::whichCharIsTheSpeparator(std::string str)
+{
+    char separator = str[2]; //zakładamy, ze zawsze będzie na drugim miejscu
+
+    for (int i = 4; i < str.length(); ++i)
+    {
+        char a = str[i];
+        bool condition = ((str[i] == separator) || ((str[i] >= 48) && (str[i] <= 57)));
+        if (!condition)
+        {
+            throw std::invalid_argument("Wrong separator was found");
+        }
+    }
+    return separator;
+}
 
 void StringCalculator::isSeparatorAtTheEnd(std::string str)
 {
-    if ((44 == str.back()) || (10 == str.back()))
+    if ((whichCharIsTheSpeparator(str) == str.back()))
     {
-        throw std::invalid_argument("Na końcu nie może być separatora");
+        throw std::invalid_argument("Separator is not allowed at the end of string");
     }
 }
 
-char StringCalculator::isCommaOrNewLine(std::string str)
+char StringCalculator::isCommaOrNewLine(std::string str) //pkt 4, już nie potrzebne
 {
     isSeparatorAtTheEnd(str);
     for (auto it = str.cbegin(); it < str.cend(); ++it)
@@ -24,19 +39,20 @@ char StringCalculator::isCommaOrNewLine(std::string str)
             return '\n';
         }
     }
-}
+}  
 
 int StringCalculator::sumOfDigits(std::string str, char c)
 {
     std::vector<int> v = {};
     std::string s = {};
-    for (auto it = str.cbegin(); it < str.cend(); ++it)
+    for (int i = 4; i < str.length(); ++i)
     {
-        if ((*it >= 48) && (*it <= 57))
+        char a = str[i];
+        if ((str[i] >= 48) && (str[i] <= 57))
         {
-            s.push_back(*it);
+            s.push_back(str[i]);
         }
-        if (c == *it)
+        if (c == str[i])
         {
             v.push_back(std::stoi(s));
             s.clear();
@@ -48,12 +64,13 @@ int StringCalculator::sumOfDigits(std::string str, char c)
 
 int StringCalculator::add(std::string s)
 {
+    isSeparatorAtTheEnd(s);
     if ("" == s)
     {
         return 0;
     }
     else
     {
-        return sumOfDigits(s, isCommaOrNewLine(s));
+        return sumOfDigits(s, whichCharIsTheSpeparator(s));
     }
 }

@@ -1,5 +1,2 @@
-﻿  StringCalculatorClass.cpp
-  Zad9Kata2StringCalculatorMain.cpp
-  Generating Code...
-C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\Zad9Kata2StringCalculatorMain\StringCalculatorClass.cpp(27): warning C4715: 'StringCalculator::isCommaOrNewLine': not all control paths return a value
+﻿  Zad9Kata2StringCalculatorMain.cpp
   Zad9Kata2StringCalculatorMain.vcxproj -> C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Zad9Kata2StringCalculatorMain.exe
