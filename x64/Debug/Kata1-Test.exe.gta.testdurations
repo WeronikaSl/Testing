@@ -3,5 +3,11 @@
   <Executable>C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Kata1-Test.exe</Executable>
   <TestDurations>
     <TestDuration Test="FizzBuzz.FizzBuzz_ConvertsInToString_ReturnsString" Duration="1" />
+    <TestDuration Test="FizzBuzz.FizzBuzz_ConvertsMultiplesOfThreeInToString_ReturnsFizz" Duration="1" />
+    <TestDuration Test="FizzBuzzFixture.FizzBuzz_ConvertsInToString_ReturnsString" Duration="1" />
+    <TestDuration Test="FizzBuzzFixture.FizzBuzz_ConvertsMultiplesOfThreeInToString_ReturnsFizz" Duration="1" />
+    <TestDuration Test="FizzBuzzFixture.FizzBuzz_ConvertsMultiplesOfThreeInToFizz_ReturnsFizz" Duration="1" />
+    <TestDuration Test="FizzBuzzFixture.FizzBuzz_ConvertsMultiplesOfFiveInToBuzz_ReturnsBuzz" Duration="1" />
+    <TestDuration Test="FizzBuzzFixture.FizzBuzz_ConvertsMultiplesOfThreeAndFiveInToFizzBuzz_ReturnsFizzBuzz" Duration="1" />
   </TestDurations>
 </GtaTestDurations>

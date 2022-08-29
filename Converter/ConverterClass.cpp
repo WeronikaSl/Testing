@@ -12,10 +12,10 @@ double Converter::metersToFeet(double meters)
 
 double Converter::celsiusToFarenheit(double Celsius)
 {
-    return (Celsius * 9 / 5) + 32;
+    return (Celsius * 9/5) + 32;
 }
 
 double Converter::farenheitToCelsius(double Farenheit)
 {
-    return (Farenheit - 32) * 5 / 9;
+    return (Farenheit - 32) * 5/9;
 }

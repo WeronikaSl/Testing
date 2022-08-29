@@ -9,7 +9,7 @@ private:
 public:
 	DebitBankAccount(int avaliableFunds);
 	bool withdraw(int toWithdraw);
-	bool setDebitLimit(int debitLimit);
+	void setDebitLimit(int debitLimit);
 	int getDebitLimit() const;
 	void payDebit(int amount);
 

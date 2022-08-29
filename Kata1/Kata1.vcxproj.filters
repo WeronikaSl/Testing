@@ -18,6 +18,9 @@
     <ClCompile Include="Kata1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Kata1Header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kata1Header.hpp">

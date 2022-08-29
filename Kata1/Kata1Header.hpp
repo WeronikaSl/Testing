@@ -1,8 +1,16 @@
 #pragma once
 #include <string>
 
-
-std::string fizzBuzz(int a)
+class Fizzbuzz
 {
-    return "-1";
-}
+private:
+    bool ifMultiplesOf3(int a);
+    std::string fizzBuzzMultiplesOf3(int a);
+    bool ifMultiplesOf5(int a);
+    std::string fizzBuzzMultiplesOf5(int a);
+    bool ifMultiplesOf3And5(int a);
+    std::string fizzBuzzMultiplesOf3And5(int a);
+public:
+    std::string fizzBuzz(int a);
+};
+

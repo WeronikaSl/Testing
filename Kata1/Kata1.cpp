@@ -1,6 +1,15 @@
-﻿#include <iostream>
+﻿#include "Kata1Header.hpp"
+#include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Fizzbuzz fizzbuzz;
+    std::cout << fizzbuzz.fizzBuzz(-17) << std::endl;
+    std::cout << fizzbuzz.fizzBuzz(0) << std::endl;
+    std::cout << fizzbuzz.fizzBuzz(2) << std::endl;
+    std::cout << fizzbuzz.fizzBuzz(50) << std::endl;
+    std::cout << fizzbuzz.fizzBuzz(90) << std::endl;
+    std::cout << fizzbuzz.fizzBuzz(60) << std::endl;
+
+
 }
