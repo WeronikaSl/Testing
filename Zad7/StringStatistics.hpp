@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 
+//do refaktoryzacji, hermetyzacja
+
 class StringStatistics
 {
 private:
