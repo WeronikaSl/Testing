@@ -6,7 +6,6 @@
 int main()
 {
 	StringCalculator sc;
-
 	try
 	{
 		//std::cout << sc.add("65\n3\n");

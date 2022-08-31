@@ -1,2 +1,6 @@
-﻿  Zad10BarCodeScannerMain.cpp
+﻿  BarcodeScannerClass.cpp
+C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\Zad10BarCodeScannerMain\BarcodeScannerClass.cpp(5,25): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ProductStruct.cpp
+  Zad10BarCodeScannerMain.cpp
+  Generating Code...
   Zad10BarCodeScannerMain.vcxproj -> C:\Users\Weronika Słowińska\OneDrive\Desktop\CPP\Testowanie\x64\Debug\Zad10BarCodeScannerMain.exe
